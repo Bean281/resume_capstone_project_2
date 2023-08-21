@@ -1,0 +1,81 @@
+.hero {
+  background-image: url(./assets/Home.png);
+  width: auto;
+  height: 100vh;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #279eff;
+}
+
+.line {
+  height: 1px; /* Line height */
+  width: 100%; /* Line width */
+  background-color: #279eff; /* Line color */
+}
+
+.left-resume {
+  background-color: #e3f4f4;
+}
+
+.right-resume {
+  background-color: #f8f6f4;
+}
+
+.space {
+  height: 50px;
+}
+
+.carousel-item img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-2 .carousel-item .carousel-caption {
+  color: black;
+}
+
+.my-project {
+  background-color: #e3f4f4;
+}
+
+.bottom-container {
+  background-color: #e3f4f4;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.bottom-container .logo a {
+  text-decoration: none;
+  color: #279eff;
+}
+.bottom-container .logo {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #e3f4f4;
+  border: #279eff;
+  color: black;
+}
